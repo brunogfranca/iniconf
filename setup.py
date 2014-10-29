@@ -14,6 +14,4 @@ setup(
     author_email='bgfranca@gmail.com',
     license='LICENSE.txt',
     packages=find_packages(),
-    scripts=[],
-    install_requires=[],
 )
