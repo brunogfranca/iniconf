@@ -11,5 +11,8 @@ setup(
     author='Bruno Franca',
     author_email='bgfranca@gmail.com',
     license=open('LICENSE.txt').read(),
-    packages=find_packages()
+    packages=find_packages(),
+    entry_points={
+        'console_scripts': ['iniconf = iniconf.cli:cli_main']
+    }
 )
