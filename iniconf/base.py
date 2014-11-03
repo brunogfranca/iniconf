@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from ConfigParser import ConfigParser
+from ConfigParser import SafeConfigParser
 
 
 class BaseParser:
@@ -9,7 +9,7 @@ class BaseParser:
         self._load_config()
 
     def _load_config(self):
-        self.raw_config = ConfigParser()
+        self.raw_config = SafeConfigParser()
         self.raw_config.read(self.config_file)
         self._parse_config()
 
