@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='iniconf',
-    version='0.1.6',
+    version='0.1.7',
     description='INI Config Creating/Parsing Tool',
     long_description=open('README.md').read(),
     url='https://github.com/brunogfranca/iniconf',
