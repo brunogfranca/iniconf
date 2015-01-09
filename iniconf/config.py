@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from os import listdir
-from os.path import isfile, join
+from os.path import isdir, isfile, join
 from iniconf.libs import utils
 from iniconf.base import BaseParser
 
@@ -16,7 +16,7 @@ class Config:
         for path in self.config_paths:
             if isfile(path):
                 self.config_files.append(path)
-            else:
+            elif isdir(path):
                 files = [f for f in listdir(path) if isfile(join(path, f)) and f.lower().endswith('.ini')]
                 files.sort()
                 self.config_files += files
