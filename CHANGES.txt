@@ -6,3 +6,4 @@ v0.1.4, 2014-10-30 -- Fixing LICENSE author
 v0.1.5, 2014-10-30 -- Fixing LICENSE
 v0.1.6, 2014-10-30 -- Fixing config import
 v0.1.7, 2014-11-10 -- Using SafeConfigParser and added cli interface
+v0.1.8, 2015-02-06 -- FIX: Check if path is a directory before treat it as one
