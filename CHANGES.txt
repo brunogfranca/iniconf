@@ -7,4 +7,5 @@ v0.1.5, 2014-10-30 -- Fixing LICENSE
 v0.1.6, 2014-10-30 -- Fixing config import
 v0.1.7, 2014-11-10 -- Using SafeConfigParser and added cli interface
 v0.1.8, 2015-02-06 -- FIX: Check if path is a directory before treat it as one
-v0.1.9, 2015-02-06 -- Including a helper to generate an ini file from a dict
+v0.1.9, 2015-02-12 -- Including a helper to generate an ini file from a dict
+v0.1.9.1, 2015-02-12 -- FIX: Helper had a typo

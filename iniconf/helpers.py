@@ -5,7 +5,7 @@ import ConfigParser
 def dict2ini(data_dict, filepath=None):
     config = ConfigParser.SafeConfigParser()
     if filepath:
-        h = open(filename, 'w+')
+        h = open(filepath, 'w+')
         config.read(h)
     for section, data in data_dict.iteritems():
         config.add_section(section)
